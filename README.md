@@ -11,3 +11,9 @@
 - Se implementaron vistas personalizadas y estilos para la aplicación.
 - Se realizaron pruebas de funcionalidad y ajustes en el diseño de la UI.
 - Se solucionaron errores menores y optimizaciones de rendimiento.
+
+
+
+# Cambiar icono app
+
+``` dart run flutter_launcher_icons ```
