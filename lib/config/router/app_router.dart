@@ -1,4 +1,4 @@
-import 'package:catbreeds/presentation/screens/screens_chest.dart';
+import 'package:catbreeds/presentation/presentation_chest.dart';
 import 'package:go_router/go_router.dart';
 
 final appRouter = GoRouter(initialLocation: '/', routes: [
