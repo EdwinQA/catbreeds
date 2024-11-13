@@ -24,7 +24,9 @@ class CatCatapidb {
   });
 
   factory CatCatapidb.fromJson(Map<String, dynamic> json) => CatCatapidb(
-        id: json["id"],
+        id: json["image"] != null && json["image"]["id"] != ''
+            ? json["image"]["id"]
+            : 'no-id',
         name: json["name"],
         origin: json["origin"],
         description: json["description"],

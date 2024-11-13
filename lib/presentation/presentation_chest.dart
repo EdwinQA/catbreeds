@@ -1,3 +1,8 @@
+export 'widgets/shared/custom_richtext.dart';
+export 'widgets/shared/custom_textbuttom_route.dart';
+export 'widgets/shared/custom_card_cat.dart';
+export 'widgets/shared/custom_search.dart';
+export 'widgets/shared/full_screen_loader.dart';
 export 'screens/cats/cat_screen.dart';
 export 'screens/cats/home_screen.dart';
 export 'providers/cats/cats_repository_provider.dart';
