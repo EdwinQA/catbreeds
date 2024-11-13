@@ -56,22 +56,22 @@ class _CatView extends StatelessWidget {
               children: [
                 const SizedBox(height: 20),
                 CustomRichTextWidget(
-                  label: 'Descripción: ',
+                  label: 'Description: ',
                   message: '${breedCat.description} -- ${breedCat.description} ',
                 ),
                 const SizedBox(height: 10),
                 CustomRichTextWidget(
-                  label: 'País: ',
+                  label: 'Country: ',
                   message: breedCat.origin,
                 ),
                 const SizedBox(height: 10),
                 CustomRichTextWidget(
-                  label: 'Inteligencia: ',
+                  label: 'Intelligence: ',
                   message: '${breedCat.intelligence}',
                 ),
                 const SizedBox(height: 10),
                 CustomRichTextWidget(
-                  label: 'Adaptabilidad: ',
+                  label: 'Adaptability: ',
                   message: '${breedCat.adaptability}',
                 ),
                 const SizedBox(height: 10),

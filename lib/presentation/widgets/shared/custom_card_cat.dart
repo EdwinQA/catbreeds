@@ -36,7 +36,7 @@ class CustomCardCatWidget extends StatelessWidget {
                     ),
                     CustomTextButtomRouteWidget(
                         routeName: CatScreen.name,
-                        label: 'Más',
+                        label: 'More',
                         icondata: Icons.arrow_forward_ios_rounded,
                         idCat: breedCat.id),
                   ],

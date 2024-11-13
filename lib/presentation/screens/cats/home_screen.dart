@@ -65,10 +65,10 @@ class _HomeViewState extends ConsumerState<_HomeView> {
         : Column(
             children: [
               Padding(
-                padding: const EdgeInsets.all(8.0),
+                padding: const EdgeInsets.all(10),
                 child: CustomSearchWidget(
                     searchController: _searchController,
-                    label: 'Filtra por raza'),
+                    label: 'Filter by breed'),
               ),
               Expanded(
                 child: ListView.builder(
