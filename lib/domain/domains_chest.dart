@@ -1,0 +1,1 @@
+export 'entities/cat.dart';
